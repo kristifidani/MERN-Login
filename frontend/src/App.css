@@ -1,0 +1,93 @@
+.input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 4px;
+    color: black;
+}
+
+.input:focus {
+    background-color: black;
+    border: 3px solid #555;
+    color: white;
+}
+
+.input[type=submit] {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.input[type=submit]:hover {
+    background-color: black;
+}
+
+.errors {
+    width: 30%;
+    padding: 5px;
+    margin-top: 2px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 4px;
+    color: red;
+    background-color: rgb(235, 161, 161);
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+p {
+    padding: 2px 2px;
+    margin: 8px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.auth {
+    float: right;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* mbyll alrtsat mas ca kohe dhe e kthen vendin qe marrin por div nuk esht fshire 
+animation: assetAnim 2s 1;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+
+@keyframes assetAnim {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        max-height: 0;
+        padding: 0;
+    }
+}
+*/
