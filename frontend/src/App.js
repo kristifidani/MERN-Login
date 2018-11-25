@@ -51,7 +51,7 @@ class App extends Component {
     console.log(this.state.errorsR);
     console.log(this.state.errorsL);
     const err = this.state.errorsL.map(error => {
-      if (!error.user) {
+      if (error.user) {
         return (
           <div key={error.param}>
             <Route
